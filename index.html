@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre deliciosos postres y tortas de la región">
+  <title>Pasteleria panArte</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Libre+Baskerville&family=Nanum+Pen+Script&family=Shadows+Into+Light&display=swap');
+    </style>
+</head>
+<body>
+  <img src="logo.png" alt="Mi Imagen" class="mi-imagen">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#categorias">CATEGORIAS</a></li>
+        <li><a href="#contactenos">CONTÁCTENOS</a></li>
+        <li><a href="#puntosdeventa">PUNTOS DE VENTA</a></li>
+        <li><a href="#resenas">RESEÑAS</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="categorias">
+      <div class="mi-div-2">
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <div class="carousel-slide">
+              <img src="BAILEYS.jpg" alt="Categoría 1">
+              <div class="producto-info">
+                <h3>GENOVESA BAYLEYS</h3>
+                <p>$ 24,000</p>
+                <p>Bizcochuelo de vainilla bañado en una mezcla majestuosa de crema de whiskey Baileys y el original tres leches Genovesa</p>
+              </div>           
+            </div>
+            <div class="carousel-slide">
+              <img src="mora.jpg" alt="Categoría 2">
+              <div class="producto-info">
+                <h3>GENOVESA MORA SILVESTRE</h3>
+                <p>$ 28,000</p>
+                <p>Bizcochuelo de vainilla bañado en el original tres leches Genovesa
+                  con un irresistible centro de dulce de mora, cubierto con crema 
+                  tipo chantilly y ralladura de chocolate blanco.</p>
+              </div>           
+            </div>
+            <div class="carousel-slide">
+              <img src="Clasica.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>GENOVESA CLASICA</h3>
+                <p>$ 29,000</p>
+                <p>Bizcochuelo de vainilla bañado en el original tres leches Genovesa, cubierto con crema tipo chantilly,
+                  decorado con ralladura de chocolate y cerezas sobre copos de crema.</p>
+              </div>     
+            </div>
+            <div class="carousel-slide">
+              <img src="Postrecremoso.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>POSTRE CREMOSO DE MARACUYA</h3>
+                <p>$ 13,000</p>
+                <p>Mousse cremoso con un marcado acento de maracuyá. Un postre ligero con el delicioso
+                  sabor de la fruta de la pasión.</p>
+              </div>           
+            </div>
+            <div class="carousel-slide">
+              <img src="Postremedianoche.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>POSTRE MEDIA NOCHE</h3>
+                <p>$ 17,000</p>
+                <P>Suave flan de leche sobre torta de chocolate y un centro irresistible de salsa arequipe,
+                  deliciosa combinación de texturas.</P>
+              </div>           
+            </div>
+            <div class="carousel-slide">
+              <img src="Redvelvet.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>TORTA REDVELVET</h3>
+                <p>$ 43,000</p>
+                <p>Bizcochuelo de Red velvet bañado en el original tres leches Genovesa® Cubierta en una suave y deliciosa crema de queso.</p>
+              </div>           
+            </div>
+            <div class="carousel-slide">
+              <img src="Snack-brownies.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>SNACK BROWNIES</h3>
+                <p>$ 8,000</p>
+                <p>Brownies en versión pequeña</p>
+              </div>         
+            </div>
+            <div class="carousel-slide">
+              <img src="Milhojas.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>TORTA MILHOJA</h3>
+                <p>$ 43,000</p>
+                <p>Bizcochuelo de vainilla remojado en el original tres leches Genovesa®, centro de arequipe con milhoja, 
+                  decorado con crema tipo chantilly y trocitos de milhoja.</p>
+              </div>           
+            </div>
+            <div class="carousel-slide">
+              <img src="Snack-galletas.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>SNACK GALLETAS</h3>
+                <p>$ 11,000</p>
+                <p>Receta original de PanArte para compartir</p>
+              </div>           
+            </div>
+            <div class="carousel-slide">
+              <img src="ZEPELIN MORA AMAPOLA.jpg" alt="Categoría 3">
+              <div class="producto-info">
+                <h3>ZEPELIN DE MORA Y AMAPOLA</h3>
+                <p>$ 55,000</p>
+                <p>Torta casera de vainilla con semillas de amapola y salsa de mora decorada con un delicioso y crocante streusel.</p>
+              </div>           
+            </div>
+          </div>
+          <button class="carousel-prev">Anterior</button>
+          <button class="carousel-next">Siguiente</button>
+        </div>
+      </div>
+    </section>
+    <section id="contactenos" style="display: flex;">
+      <div class="mi-div-3">
+        <div class="FormularioContactenos">
+          <h2>Contactenos</h2>
+          <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+          
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+          
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+          
+            <label for="pregunta">Pregunta:</label>
+            <textarea id="pregunta" name="pregunta" required></textarea>
+          
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="RedesSociales">
+          <h2>Redes Sociales</h2>
+          <ul>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-facebook"></i> Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-twitter"></i> Twitter
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="puntosdeventa">
+      <div class="mi-div-4">
+        <div class="carousel puntos-de-venta-carousel">
+          <div class="punto-de-venta">
+            <img src="ITAGUI.jpg" alt="Tienda1">
+            <h3>Itagui</h3>
+            <p>Dirección: Cra. 23# 45-33</p>
+            <p>Horario Lunes a sábado: 9:00 am a 8:00 pm</p>
+            <p>Clic para pedir tu domicilio:</p>
+            <p>Teléfono: <a href="https://wa.me/3008251975" target="_blank">3008251975</a></p>
+          </div>
+        
+          <div class="punto-de-venta">            
+            <img src="ENVIGADO.jpg" alt="Tienda2">
+            <h3>Envigado</h3>
+            <p>Dirección: Cra. 26# 30-33</p>
+            <p>Horario Lunes a sábado: 9:00 am a 8:00 pm</p>
+            <p>Clic para pedir tu domicilio:</p>
+            <p>Teléfono: <a href="https://wa.me/3008251975" target="_blank">3008251975</a></p>
+          </div>
+        
+          <div class="punto-de-venta">
+            <img src="SAN ANTONIO.jpg" alt="Tienda3">
+            <h3>San Antonio</h3>
+            <p>Dirección: Cra. 30# 18-76</p>
+            <p>Horario Lunes a sábado: 9:00 am a 8:00 pm</p>
+            <p>Clic para pedir tu domicilio:</p>
+            <p>Teléfono: <a href="https://wa.me/3008251975" target="_blank">3008251975</a></p>
+          </div>
+        
+          <div class="punto-de-venta">
+            <img src="BELLO.jpg" alt="Tienda4">
+            <h3>Bello</h3>
+            <p>Dirección: Cra. 12# 15-33</p>
+            <p>Horario Lunes a sábado: 9:00 am a 8:00 pm</p>
+            <p>Clic para pedir tu domicilio:</p>
+            <p>Teléfono: <a href="https://wa.me/3008251975" target="_blank">3008251975</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resenas">
+      <div class="mi-div-5">
+        <h2>Reseñas</h2>
+        <div id="resenas-container"></div>
+        <div id="formulario-resena">
+          <label for="calificacion">Calificación:</label>
+          <select id="calificacion">
+            <option value="1">1 estrella</option>
+            <option value="2">2 estrellas</option>
+            <option value="3">3 estrellas</option>
+            <option value="4">4 estrellas</option>
+            <option value="5">5 estrellas</option>
+          </select>
+          <br>
+          <label for="descripcion">Descripción:</label>
+          <textarea id="descripcion" rows="4" cols="50"></textarea>
+          <br>
+          <button onclick="agregarResena()">Agregar Reseña</button>
+        </div>
+        <div id="resenas-container"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
